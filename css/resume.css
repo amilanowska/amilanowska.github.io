@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Impact', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
 }
@@ -23,10 +23,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Century Gothic', 'Optima', Roboto, 'Helvetica Neue', Arial, sans-serif,
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #2E21E2;
 }
 
 h1 {
@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #6610f2;
 }
 
 .dev-icons {
@@ -80,11 +80,16 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #2E21E2;
 }
 
 .name-header {
-  color: blue !important;
+  font-family: : 'Impact' !important;
+  color: #6610f2;
+}
+
+.movedown {
+  margin-top: 15px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -94,12 +99,12 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #9459f6;
 }
 
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
+    text-align: left;
     position: fixed;
     top: 0;
     left: 0;
@@ -110,7 +115,7 @@ p.lead {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 11rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -123,7 +128,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid #d41e45(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -180,17 +185,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #6610f2 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #6610f2 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #6610f2;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #4709ac;
 }

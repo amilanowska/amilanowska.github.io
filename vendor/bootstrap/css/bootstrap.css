@@ -4502,11 +4502,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #d41e45;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #d41e45;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -4542,11 +4542,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-text a {
-  color: #fff;
+  color: #d41e45;
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #d41e45;
 }
 
 .card {
